@@ -1,18 +1,19 @@
 {
   "name": "ts-demo-patterns",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "TS patterns",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "npm run build",
-    "build": "tsc",
+    "build": "tsc --declaration",
     "test": "jest"
   },
   "author": "vovchik33@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.23",
+    "@types/node": "^15.0.1",
     "jest": "^26.6.3",
     "ts-jest": "^26.5.5",
     "ts-node": "^9.1.1",
