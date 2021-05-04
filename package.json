@@ -1,7 +1,7 @@
 {
   "name": "ts-demo-patterns",
-  "version": "1.0.1",
-  "description": "TS patters",
+  "version": "1.0.2",
+  "description": "TS patterns",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
