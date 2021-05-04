@@ -1,3 +1,6 @@
 "use strict";
-console.log("Hello, TS");
+
+export const hello = () => {
+    console.log("Hello, TS");
+}
 
